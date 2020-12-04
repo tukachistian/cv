@@ -1,0 +1,130 @@
+        .body {
+            color:#;
+            background: #123456;
+        }
+        a {
+            color: #FF6533;
+        }
+        a:hover, a:focus {
+            color: #FF4C00;
+        }
+        #titre{
+        text-align:center }
+        
+        #navigation {
+            background-color: blue;
+        }
+        h3
+        {
+        text-decoration:underline;
+        background-color: red;
+        }
+        p{
+            background-color: rgb(0, 102, 255);
+
+        }
+        #navigation a {
+            color: #FF6533;
+        }
+        #navigation a:hover, #navigation a:focus {
+            background: #000000;
+        }
+        img{
+            float: right;
+            margin-bottom:1px;
+        }
+       
+        #contenu {
+            color: #FFFFFF;
+            background: #cbd888;
+        }
+        #contenu a {
+            color: #332510;
+        }
+        #contenu a:hover, #contenu a:focus {
+            color: #6E5122;
+        }
+        #contenu strong {
+            color: #181A12;
+        }
+
+        #pied {
+            color: #E6A948;
+            background: #181A12;
+        }
+
+        body {
+            padding: 15px 0 25px 0;
+        }
+        #global {
+            background-color:#FFFFFF ;
+            width: 750px;
+            margin-left: 250px;
+            margin-right: auto;
+        }
+
+      
+        #entete {
+            padding: 15px 20px 10px 0;
+        }
+        #entete h1 {
+            margin: 0;
+        }
+        #entete h1 img {
+            float: left;
+            margin: 7px 20px 10px 0;
+        }
+        #entete .sous-titre {
+            margin: 4px 0 15px 0;
+        }
+
+        /* Menu de navigation */
+        #navigation {
+            padding: 12px 15px;
+        }
+        #navigation ul {
+            width: 100%; 
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #navigation li.gauche {
+            float: left; 
+            margin-right: 10px;
+            font-size: 1.4em;
+            font-style: italic;
+        }
+        #navigation li.droite {
+            float: right; 
+            margin-right: 0;
+            margin-left: 10px;
+            padding: 3px 0;
+        }
+        #navigation a {
+            padding: 6px;
+            line-height: 1.5;
+            font-size: .9em;
+            text-decoration: blue;
+        }
+
+        #contenu {
+            padding: 10px 20px;
+        }
+        #contenu > :first-child {
+            margin-top: 10px;
+        }
+        #contenu p, #contenu li {
+            line-height: 1.5;
+        }
+
+        #pied {
+            padding: 15px 20px;
+            font-size: .85em;
+        }
+        #pied p {
+            margin: .5em 0;
+        }
+        #copyright {
+            text-align: left;
+            font-size: 1em;
+        }
